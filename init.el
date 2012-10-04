@@ -393,13 +393,13 @@
 
 ;; Saving sessions makes Emacs load really slowly. Enable this only if you
 ;; need it.
-(progn
-  (desktop-save-mode t)           ;; Save sessions.
-  (desktop-load-default)          ;; Load the desktop on startup.
-  (setq desktop-enable t
-        desktop-restore-eager 5
-        ;; desktop-save 'if-exists   ;; Automatically save desktop if it exists.
-        ))
+;;(progn
+;;  (desktop-save-mode t)           ;; Save sessions.
+;;  (desktop-load-default)          ;; Load the desktop on startup.
+;;  (setq desktop-enable t
+;;        desktop-restore-eager 5
+;;        ;; desktop-save 'if-exists   ;; Automatically save desktop if it exists.
+;;        ))
 
 ;; Better buffer names.
 (require 'uniquify)
