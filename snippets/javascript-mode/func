@@ -3,4 +3,7 @@
 # expand-env: ((yas/indent-line 'fixed))
 # contributor: Yesudeep Mangalapilly <yesudeep@google.com>
 # --
+/**
+ *${3: Enter you description here.}
+ */
 ${1:name} = function($2) {$0};
